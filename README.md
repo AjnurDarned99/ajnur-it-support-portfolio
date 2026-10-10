@@ -1,41 +1,60 @@
 # Ajnur Begovic — IT Support Portfolio
 
-A static portfolio for entry-level IT Support, Technical Support and Application Support opportunities. The site includes an interactive help-desk practice lab with fictional tickets, troubleshooting playbooks and an incident-note builder.
+Entry-level IT Support portfolio demonstrating practical troubleshooting, help desk ticket management, and incident documentation.
 
-**Transparency:** this is a self-directed learning portfolio. Tickets and case scenarios are fictional. It does not claim professional IT support experience or represent a production service-desk environment.
+I am a Software Engineering student interested in IT Support, Technical Support, and Application Support roles. I use hands-on projects to develop my troubleshooting, documentation, and technical problem-solving skills.
 
-## Contents
+## Projects
 
-- `index.html` — portfolio landing page
-- `styles.css`, `script.js` — responsive site styles and menu behavior
-- `projects/support-lab/` — interactive support lab (ticket queue simulator, troubleshooting playbooks, incident note builder)
-- `case-studies/` — written, simulated troubleshooting examples
+### 1. Support Lab
+An interactive help desk simulation featuring:
+- Ticket creation and prioritization
+- Ticket status management
+- Searching and filtering support requests
+- Troubleshooting playbooks for common technical issues
+- Incident note generation and documentation
 
-## Run locally
+### 2. Troubleshooting Case Studies
+Written simulations covering common support scenarios, including:
+- Wi-Fi connectivity problems
+- Account login issues
+- Web application errors
+- Pending payment investigations
 
-Open `index.html` in a browser. The interactive lab is linked from the portfolio; open `projects/support-lab/index.html` directly to test it. No build tools or dependencies are needed. Ticket data is stored in browser localStorage only.
+Each case study outlines the reported issue, diagnostic steps, findings, and recommended next actions.
 
-## Publish as a separate GitHub Pages site
+## Skills Demonstrated
 
-The existing developer portfolio lives in a separate repository. To publish this support portfolio without overwriting it:
+- Help desk ticket handling and prioritization
+- Structured troubleshooting and problem isolation
+- Incident documentation and escalation
+- Clear technical communication
+- Basic web technologies: HTML, CSS, and JavaScript
+- Browser developer tools and browser storage
 
-1. Go to `https://github.com/new` while signed in to your GitHub account.
-2. Create a **Public** repository named `ajnur-it-support-portfolio`. Do not add a README during repository creation.
-3. On the empty repository page, choose **uploading an existing file**.
-4. Open this extracted folder on your computer and upload its **contents** (the `index.html`, CSS/JS files and folders), not the ZIP and not the outer folder.
-5. Commit the files to the `main` branch.
-6. Open the new repository's **Settings → Pages**.
-7. Under **Build and deployment**, choose **Deploy from a branch**, select branch `main` and folder `/ (root)`, then save.
-8. Wait for the Pages build. The expected site URL is `https://ajnurdarned99.github.io/ajnur-it-support-portfolio/`.
-9. Test the landing page and the HelpDesk Lab link on the public URL.
+## Technologies
 
-If a public link is added to a CV, open that exact URL in a private/incognito browser first to verify that it works without being signed in to GitHub.
+- HTML5
+- CSS3
+- JavaScript
+- Browser Local Storage
+- GitHub Pages
 
-## Privacy and safe support practices
+## How to Run Locally
 
-- All built-in tickets are fictional. Do not enter real customer data, passwords, MFA codes, full payment-card details, banking credentials or private keys.
-- Follow an employer's identity verification, access control and escalation procedures. Do not reset accounts, change payment details, or make production changes unless authorised.
-- Never claim these simulated cases as professional work experience. They are practice examples to discuss honestly in interviews.
+1. Download or clone this repository.
+2. Open `index.html` in a web browser.
+3. Open the Support Lab project to explore the interactive help desk simulation.
 
-## Contact link
-The “Email Ajnur” button opens Gmail compose in a browser. It works best when signed in to Gmail. The email address is included in the public portfolio, so use an address you are comfortable sharing with employers.
+No build tools or external dependencies are required.
+
+## Project Scope and Transparency
+
+This is a self-directed learning portfolio. All tickets and troubleshooting scenarios are fictional simulations created for practice. The projects are not connected to a production service desk, real customer accounts, payment systems, or company infrastructure.
+
+These projects demonstrate learning and practical initiative; they do not represent professional IT Support employment experience.
+
+## Contact
+
+- **GitHub:** https://github.com/AjnurDarned99
+- **Portfolio:** Add the published GitHub Pages URL here once deployment is enabled.
